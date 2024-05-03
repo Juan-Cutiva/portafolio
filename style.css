@@ -85,26 +85,26 @@ h2, h1{
         width: 10%;}
 }
 
-#footer {
-    font-family: "Indie Flower";
-    width: 100%;
-    height: 100px;
-    box-sizing: border-box;
-    margin: 8px;
-    border: 4px solid rgb(122 105 87);
-    padding: 10px;
-    border-radius: 10px;
+
+#redes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    img{height: 5%;
+        width: 5%;}
 }
 
 img {
     padding: 10px;
 }
 
-
 #metas{
     display: flex;
     align-items: center;
 }
+
 @keyframes show {
     from {
         opacity: 0;
@@ -126,4 +126,15 @@ img {
 
     animation-range: entry 25% cover 50%;
     animation-fill-mode: both;
+}
+
+#footer {
+    font-family: "Indie Flower";
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    margin: 8px;
+    border: 4px solid rgb(122 105 87);
+    padding: 10px;
+    border-radius: 10px;
 }

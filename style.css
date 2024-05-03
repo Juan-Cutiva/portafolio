@@ -128,6 +128,11 @@ img {
     animation-fill-mode: both;
 }
 
+#sectionFooter{
+    justify-content: center;
+}
+
+
 #footer {
     font-family: "Indie Flower";
     width: 100%;
@@ -141,5 +146,39 @@ img {
 }
 
 #footer2{
+    width: 414px;
+    height: 506px;
+    font-family: "Indie Flower";
+    font-size: 30px;
+    box-sizing: border-box;
+    border: 2px white solid;
+    margin: 8px 33.5pc;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
     color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer2 h2{
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}
+#footer2 label{
+    margin-bottom: 5px;
+    font-size: 28px;
+}
+
+#footer2 div{
+    display: flex;
+    flex-direction: column;
+}
+
+#footer2 form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
 }

@@ -150,13 +150,13 @@ img {
     height: 506px;
     font-family: "Indie Flower";
     font-size: 30px;
-    box-sizing: border-box;
     border: 2px white solid;
     margin: 8px 33.5pc;
     padding: 10px;
     border-radius: 10px;
     display: flex;
     color: white;
+    justify-content: flex-end;
     flex-direction: column;
     align-items: center;
 }
@@ -181,4 +181,36 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
+}
+
+#footer2 input {
+    background: #7d7a7ac2;
+    color: white    ;
+}
+
+#enviar{
+    border-radius: 2px;
+    transition: .3s;
+    user-select: none;
+    font-family: "Catamaran", sans-serif;
+    background:rgba(203, 199, 199, 0.845);
+    border: 2px solid rgb(100, 100, 100);
+    padding: 8px;
+    margin: 10px;
+}
+
+#enviar:hover{  
+    background:rgb(94, 94, 94);
+    user-select: none;
+}
+#enviar:active{
+    transform: scale(0.9);
+    user-select: none;
+}
+
+textarea {
+    width: 238px;
+    height: 114px;
+    background: #7d7a7ac2;
+    color: white;
 }

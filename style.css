@@ -65,6 +65,44 @@ h1, h2, h3{
     img{height: 20%;
         width: 20%;}
 }
+
+.ful-img{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+}
+
+.ful-img span{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.ful-img img{
+    width: 90%;
+    max-width: 800px;
+}
+
+#fotosColash  img{
+    width: 100%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#fotosColash img:hover{
+    transform: scale(1.2);
+}
+
 #fotosColash{
     display: flex;
     flex-direction: row;
@@ -74,6 +112,7 @@ h1, h2, h3{
     img{height: 20%;
         width: 20%;}
 }
+
 
 .fotosLenguaje{
     display: flex;
@@ -197,6 +236,7 @@ img {
     border: 2px solid rgb(100, 100, 100);
     padding: 8px;
     margin: 10px;
+    cursor: pointer;
 }
 
 #enviar:hover{  
@@ -213,4 +253,10 @@ textarea {
     height: 114px;
     background: #7d7a7ac2;
     color: white;
+}
+
+.bi{
+    font-size: 24px;
+    color: #696969;
+    cursor: pointer;
 }

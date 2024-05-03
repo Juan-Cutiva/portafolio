@@ -6,32 +6,45 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Juan Cutiva</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   </head>
   <body>
     <section id="contenido">
+      
       <div id="titulo">
         <h1>Mi experiencia y conocimiento en este gran mundo</h1>
       </div>
+      
       <div id="conocimientoss">
-        <h2>Mi nombre es Juan David Cutiva Lopez tengo <span id="edad">17</span> años, naci en Bogota D.C, Colombia, un 09 de Febrero del 2007; Me gusta mucho la natacio, el karting y la programacion.</h2>
+        <h2>Mi nombre es Juan David Cutiva Lopez tengo <span id="edad">17</span> años, naci en Bogota D.C, Colombia, un 09 de Febrero del 2007; Me gusta mucho la natacion, el karting y la programacion.</h2>
+        
         <div id="fotosPersonal">
           <img id="foto1" src="./public/IMG_20240222_204147_822.jpg" alt="foto1">
         </div>
+        
         <h2>Sobre mi:</h2>
         <h2> Soy un joven que le gusta la adrenalina y pasar tiempo con mis amigos y familia, me gusta explorar </h2>
+        
+        <div class="ful-img" id="fulImgBox">
+          <img src="public/IMG-20231018-WA0008.jpg" id="fulImg" alt="">
+          <span onclick="closeImg()">X</span>
+        </div>
+        
         <div id="fotosColash">
-          <img src="public/IMG-20231018-WA0008.jpg" alt="foto1">
-          <img src="public/IMG-20231112-WA0018.jpg" alt="foto1">
-          <img src="public/IMG-20240225-WA0001.jpeg" alt="foto1">
-          <img src="public/IMG-20240316-WA0510.jpg" alt="foto1">
-          <img src="public/IMG-20240329-WA0031.jpg" alt="foto1">
-          <img src="public/IMG-20240329-WA0041.jpg" alt="foto1">
-          <img src="public/STC03643.jpg" alt="foto1">
-          <img src="public/STC03866.jpg" alt="foto1">
+          <img src="public/IMG-20231018-WA0008.jpg" onclick="openFulImg()" ="foto1" class="fotos">
+          <img src="public/IMG-20231112-WA0018.jpg" onclick="openFulImg()" ="foto1" class="fotos">
+          <img src="public/IMG-20240225-WA0001.jpeg" onclick="openFulImg()" ="foto1" class="fotos">
+          <img src="public/IMG-20240316-WA0510.jpg" onclick="openFulImg()" ="foto1" class="fotos">
+          <img src="public/IMG-20240329-WA0031.jpg" onclick="openFulImg()" ="foto1" class="fotos">
+          <img src="public/IMG-20240329-WA0041.jpg" onclick="openFulImg()" ="foto1" class="fotos">
+          <img src="public/STC03643.jpg" onclick="openFulImg()" ="foto1" class="fotos">
+          <img src="public/STC03866.jpg" onclick="openFulImg()" ="foto1" class="fotos">
+        
         </div>
         <h2>actualmente soy un estudiante en formacion, y aspiro a aprender mas.</h2>
         <h2>Conocimientos avanzados de Git y GitHub</h2>
         <h2>Tengo conocientos basicos en Python, JavaScript, HTML y CSS</h2>
+        
         <div class="fotosLenguaje">
           <img src="public/git.png" alt="foto1">
           <img src="public/github.png" alt="foto1">
@@ -39,9 +52,11 @@
           <img src="public/javascript.png" alt="foto1">
           <img src="public/html.png" alt="foto1">
           <img src="public/css.png" alt="foto1">
+        
         </div>
         <h2>Mis metas son:</h2>
         <h2>Aprender sobre: TypeScript, Go, Astro, React y React Native, Vue, Angular, QA y Bases de Datos, Jenkins, Docker, MySQL </h2>
+        
         <div class="fotosLenguaje">  
           <img src="public/Typescript.svg.png" alt="foto1">
           <img src="public/go.svg.png" alt="foto1">
@@ -56,12 +71,22 @@
           <img src="public/docker.png" alt="foto1">
           <img src="public/mysql.png" alt="foto1">
         </div>
+      
       </div>
     </section>
     <section id="sectionFooter">
+      
       <div id="footer">
         <h2>El gran sueño de poder plasmas mis ideas en linas de codigo</h2>
       </div>
+      
+      <div id="redes">
+        <a href="https://www.instagram.com/juan.cutiva_/" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="https://github.com/Juan-Cutiva" target="_blank"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/juan-david-cutiva-lopez-62ba62253/" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://twitter.com/JuanDavidCutiv2" target="_blank"><i class="bi bi-twitter-x"></i></a>
+      </div>
+      
       <div id="footer2">
         <h2>Envia tu formulario</h2>
         <form action="https://formsubmit.co/juandavidcutiva.jdc@gmail.com" method="POST" />
@@ -80,6 +105,8 @@
           <input id="enviar" type="submit" value="Enviar">
         </form>
       </div>
+
     </section>
+    <script src="main.js"></script>
   </body>
 </html>
